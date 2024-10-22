@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
 body{
+    margin: auto;
     font-family: "Habibi", sans-serif;
     max-width: 428px;
 }
