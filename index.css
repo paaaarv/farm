@@ -26,24 +26,38 @@ h3, p{
     font-size: 1.25em;
     text-align: center;
 }
+p, figcaption{
+    font-family: "Habibi", sans-serif;
+}
 .food-pics{
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
 figure {
     position: relative;
+    width: fit-content;
+    margin: auto;
+
 }
 img {
     display: block;
     max-width: 100%;
 } 
 figcaption{
-    inset: 0;
+    width: 45%;
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 15px 10px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0, 0.8);
+
+
 
 } 
