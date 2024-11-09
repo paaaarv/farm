@@ -1,5 +1,8 @@
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap');
 
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 html{
     background-color: white;
 }
@@ -147,7 +150,7 @@ footer p{
     margin: auto;
 }
 
-
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media only screen and (min-width: 834px){
     #header-content{
         display: flex;
@@ -168,6 +171,7 @@ footer p{
         display: flex;
     }
 }
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media only screen and (min-width: 1280px){
     header{
         display: flex;
@@ -198,7 +202,7 @@ footer p{
     }
 }
 
-
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media only screen and (min-width: 1440px){
 
     .food-pics{
