@@ -85,6 +85,7 @@ p, figcaption{
     grid-row-gap: 40px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
 }
 figure {
@@ -114,11 +115,40 @@ figcaption{
     align-items: center;
 
 } 
+aside{
+    background-color: #06A816;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0 5px;
+}
+aside section {
+    width: 50%;
+    margin: auto;
+    margin-top: 0;
+}
+aside h2{
+    margin-bottom:5px;
+}
+
+aside p{
+    margin-top: 5px;
+}
+footer {
+    color: #06A816;
+    margin: 5px 0 10px; 
+}
+footer p{
+    width:fit-content;
+    margin: auto;
+}
 
 
 @media only screen and (min-width: 834px){
     .food-pics{
         grid-template-columns: repeat(2, 1fr);
+    }
+    aside {
+        display: flex;
     }
 }
 @media only screen and (min-width: 1280px){
@@ -129,7 +159,13 @@ figcaption{
     nav li{
         width: 45%;
     }
-
+    aside section{
+        display: flex;
+        justify-content: space-around;
+    }
+    aside section h2{
+        width: 25%;
+    }
 }
 
 
